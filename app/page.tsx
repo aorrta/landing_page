@@ -80,7 +80,7 @@ export default function PaperShaderPage() {
         >
           <div className="mb-6">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aorrta_logo-LsQr2f6H5xthbtFg9L210AfqopW0EG.png"
+              src="/aorrta_logo.png"
               alt="AORRTA"
               className={`h-16 w-auto mx-auto mb-4 transition-all duration-1000 delay-300 ${
                 warningAnimationPhase === "visible"
@@ -237,7 +237,7 @@ export default function PaperShaderPage() {
         }`}
       >
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aorrta_logo-LsQr2f6H5xthbtFg9L210AfqopW0EG.png"
+          src="/aorrta_logo.png"
           alt="AORRTA"
           className="h-24 w-auto"
         />
@@ -355,7 +355,7 @@ export default function PaperShaderPage() {
         }`}
       >
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mary-QJstD0h9mhQPHy0TNst2qvcBY8UzYC.png"
+          src="/mary.png"
           alt="The main character Mary from The Secret: Reloaded visual novel"
           className="h-[95vh] w-auto"
         />
@@ -389,7 +389,7 @@ export default function PaperShaderPage() {
         style={{ transform: siteAnimationPhase === "visible" ? "translateY(-10%)" : "translateY(-2%)" }}
       >
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the_secret_logo-jzjhorzlyEZximeUwhKErAdDTs37yu.png"
+          src="/the_secret_logo.png"
           alt="The Secret: Reloaded logo"
           className={`h-32 w-auto mb-8 transition-all duration-1000 delay-1200 ${
             siteAnimationPhase === "visible" ? "transform rotate-0 scale-100" : "transform rotate-3 scale-95"
@@ -423,9 +423,9 @@ export default function PaperShaderPage() {
       >
         <div className="flex flex-col items-center justify-center px-8 py-6 text-center">
           <div className="text-xs text-black/70 space-y-1 mb-3">
-            <p>© 2017-2025 AORRTA. All rights reserved.</p>
-            <p>© 2017-2025 The Secret. All rights reserved.</p>
-            <p>Game founded 2017-2025</p>
+            <p>© 2017-2026 AORRTA. All rights reserved.</p>
+            <p>© 2017-2026 The Secret. All rights reserved.</p>
+            <p>Game founded 2017-2026</p>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-4 text-xs text-black/60">
             <a href="#" className="hover:text-black/80 transition-colors">

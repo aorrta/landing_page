@@ -19,6 +19,13 @@ export const metadata: Metadata = {
     "Dive into 'The Secret: Reloaded,' a sandbox adult visual novel. After losing his family's company, a young man must navigate a world of corporate deceit and the dangerously complex relationships with his mother and sister.",
   keywords:
     "The Secret Reloaded, The Secret Renpy, Aorrta Games, AORRTA, aorta, aorrta, Adult visual novel, AVN, erotic game, sandbox AVN, Ren'Py game, story-driven adult game",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://aorrta-games.com",
+  },
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -26,7 +33,6 @@ export const metadata: Metadata = {
       { url: "/favicon.ico", sizes: "any" },
     ],
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
-    other: [{ rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#000000" }],
   },
   manifest: "/site.webmanifest",
   themeColor: "#e97e80",
@@ -35,10 +41,11 @@ export const metadata: Metadata = {
     description:
       "After losing his family's company, a young man must navigate a world of corporate deceit and the dangerously complex relationships with his mother and sister.",
     url: "https://aorrta-games.com",
+    siteName: "The Secret: Reloaded",
     type: "website",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mary-QJstD0h9mhQPHy0TNst2qvcBY8UzYC.png",
+        url: "https://aorrta-games.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "The Secret: Reloaded - Mary character artwork",
@@ -50,9 +57,8 @@ export const metadata: Metadata = {
     title: "The Secret: Reloaded | A Story-Rich Adult Visual Novel",
     description:
       "After losing his family's company, a young man must navigate a world of corporate deceit and the dangerously complex relationships with his mother and sister.",
-    images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mary-QJstD0h9mhQPHy0TNst2qvcBY8UzYC.png"],
+    images: ["https://aorrta-games.com/og-image.png"],
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
